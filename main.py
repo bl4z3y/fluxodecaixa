@@ -16,6 +16,7 @@ def main():
 
     con, cursor = connsql.connect()
     cursor.execute(f"INSERT INTO {mes}{ano} (Dia, Educacao, Saude, Lazer, Outros, TOTAL) VALUES ({dia}, {educa}, {saude}, {lazer}, {outros}, {total})")
+    con.commit()
 
     connsql.exec_show(cursor, f"SELECT * FROM {mes}{ano}")
 
