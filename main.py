@@ -2,7 +2,6 @@ import connsql
 from datetime import datetime
 
 d = datetime.now()
-#data = d.strftime("%d/%m/%Y")
 
 def main():
     print(f"Data: {d.strftime('%d/%m/%Y')}")
