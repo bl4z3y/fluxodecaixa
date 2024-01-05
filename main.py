@@ -1,5 +1,4 @@
 import connsql
-# from datetime import datetime
 
 def main():
     dia = int(input("Dia: "))

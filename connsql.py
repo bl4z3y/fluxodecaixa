@@ -3,8 +3,8 @@ from prettytable import PrettyTable as pt
 
 # Configuração da conexão
 config = {
-    'user': 'positivo',
-    'password': '76190403',
+    'user': 'FDC_Roseli',
+    'password': 'Rosel1',
     'host': '192.168.15.32',
     'database': 'FDC',
     'raise_on_warnings': True,
