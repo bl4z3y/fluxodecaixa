@@ -1,17 +1,12 @@
 import connsql, os
-from random import randint
 from datetime import datetime
 
 d = datetime.now()
 
 con, cursor = connsql.connect()
 dia = d.strftime("%d")
-# dia = randint(1,28)
-dia = 28
 mes = connsql.ntomonth(int(d.strftime("%m")))
-# mes = "Trezembro"
 ano = int(d.strftime("%Y")[2:4])
-# ano = "99"
 
 TAB = f"{mes}{ano}"
 
